@@ -27,9 +27,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = os.environ.get('SECRET_KEY', '')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = 'DEVELOPMENT' in os.environ
+DEBUG = True  # 'DEVELOPMENT' in os.environ
 
-ALLOWED_HOSTS = ['boutique-ado-walkthrough-yeti-8dc6c6a66c48.herokuapp.com/',
+ALLOWED_HOSTS = ['https://boutique-ado-walkthrough-yeti-8dc6c6a66c48.herokuapp.com/',
                  '8000-yannickferenczi-boutique-fhqdlqbusy.us2.codeanyapp.com']
 
 
